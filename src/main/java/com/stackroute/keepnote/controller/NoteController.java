@@ -33,8 +33,8 @@ public class NoteController {
 	 * Retrieve the NoteRepository object from the context.
 	 */
 	ApplicationContext context= new ClassPathXmlApplicationContext("beans.xml");
-	Note note= (Note) context.getBean("note");
-	NoteRepository noteRepository=(NoteRepository) context.getBean("noteRepository");
+	Note note= (Note) context.getBean("note",Note.class);
+	NoteRepository noteRepository=(NoteRepository) context.getBean("noteRepository",NoteRepository.class);
 
 
 

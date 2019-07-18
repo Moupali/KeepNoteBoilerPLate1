@@ -12,10 +12,10 @@
 	<!-- Create a form which will have text boxes for Note ID, title, content and status along with a Send 
 		 button. Handle errors like empty fields -->
 		 <form action="login" action="POST">
-		 Note ID:<input type="text" name="noteid"><br>
-		 Title:<input type="text" name="title"><br>
-		 Content:<input type="text" name="content"><br>
-		 Status:<input type="text" name="status"><br>
+		 Note ID:<input type="text" name="noteId"><br>
+		 Title:<input type="text" name="noteTitle"><br>
+		 Content:<input type="text" name="noteContent"><br>
+		 Status:<input type="text" name="noteStatus"><br>
 		 Send <input type="submit" name="Send">
 
 	<!-- display all existing notes in a tabular structure with Id, Title,Content,Status, Created Date and Action -->
